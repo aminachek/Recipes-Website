@@ -21,4 +21,4 @@ Ce projet a été conçu pour proposer une plateforme simple de consultation de 
 
 Projet évolutif avec possibilité d’ajouter des fonctionnalités dynamiques (recherche, filtres, base de données).
 ![recipe](recipe.png)
-![recipe](recip1.png)
+![recipe](recipe1.png)
