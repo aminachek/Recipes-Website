@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Amina Recipes</title>
+<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+<div style="text-align:center; margin-top:20px; color:#94a3b8;">
+</div>
+<header>
+    <div class="logo">🍽 وصفات أمينة</div>
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">الوصفات</a>
+        <a href="#">اتصال</a>
+    </nav>
+</header>
+<div class="top-bar">
+    <div class="moving-text">
+        مرحبا بكم في موقع وصفات أمينة 🍽 — Welcome to Amina Recipes 🍲 — أهلاً وسهلاً ❤️
+    </div>
+</div>
+<section class="hero">
+    <h1>وصفات منزلية لذيذة 🍲</h1>
+    <p>أكلات تقليدية جزائرية وعالمية بطريقة سهلة ✨</p>
+</section>
+
+
+
+<section class="container">
+
+    <div class="card" onclick="openRecipe('bourek')">
+        <img src="images/bourek_turk.jpg">
+        <h3>بوريك تركي</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('burger')">
+        <img src="images/burger.jpg">
+        <h3>برغر</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('cake')">
+        <img src="images/cake.jpg">
+        <h3>كيك</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('charak')">
+        <img src="images/charak.jpg">
+        <h3>شراك</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('fatair2')">
+        <img src="images/fatair2.jpg">
+        <h3>فطائر</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('fatair')">
+        <img src="images/fatair.jpg">
+        <h3>فطائر محشية</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('lahm')">
+        <img src="images/lahm_3ajin.jpg">
+        <h3>لحم بعجين</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('ma9rot')">
+        <img src="images/ma9rot.jpg">
+        <h3>مقرود</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('mchewek')">
+        <img src="images/mchewek.jpg">
+        <h3>مقروط</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('mini')">
+        <img src="images/mini_pizza.jpg">
+        <h3>ميني بيتزا</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('soufle')">
+        <img src="images/soufle.jpg">
+        <h3>سوفلي</h3>
+    </div>
+
+    <div class="card" onclick="openRecipe('tacos')">
+        <img src="images/tacos.jpg">
+        <h3>تاكوس</h3>
+    </div>
+
+</section>
+<!-- MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span onclick="closeRecipe()" class="close">&times;</span>
+        <div id="recipe-text"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <div class="footer-content">
+        <h3>🍽 Amina Recipes</h3>
+        <p>وصفات منزلية تقليدية جزائرية وعالمية ❤️</p>
+
+        <div class="footer-links">
+            <a href="#">الرئيسية</a>
+            <a href="#">الوصفات</a>
+            <a href="#">اتصال</a>
+        </div>
+
+        <p class="copy">© 2022جميع الحقوق محفوظة</p>
+    </div>
+</footer>
+</body>
+</html>
